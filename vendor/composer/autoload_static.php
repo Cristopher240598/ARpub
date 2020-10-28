@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
+class ComposerStaticInit05943a566d2a5b642d522f61b5c59c75
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -509,6 +509,11 @@ class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\administradores' => __DIR__ . '/../..' . '/app/administradores.php',
+        'App\\clientes' => __DIR__ . '/../..' . '/app/clientes.php',
+        'App\\disenios' => __DIR__ . '/../..' . '/app/disenios.php',
+        'App\\pagos' => __DIR__ . '/../..' . '/app/pagos.php',
+        'App\\usuarios' => __DIR__ . '/../..' . '/app/usuarios.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
@@ -2664,12 +2669,17 @@ class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
+        'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV5.php',
+        'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV6' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV6.php',
+        'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerForV7' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerForV7.php',
+        'Mockery\\Adapter\\Phpunit\\Legacy\\TestListenerTrait' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/Legacy/TestListenerTrait.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
-        'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
+        'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditionsForV7AndPrevious' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditionsForV7AndPrevious.php',
+        'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditionsForV8' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditionsForV8.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
-        'Mockery\\Adapter\\Phpunit\\MockeryTestCaseSetUp' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCaseSetUp.php',
+        'Mockery\\Adapter\\Phpunit\\MockeryTestCaseSetUpForV7AndPrevious' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCaseSetUpForV7AndPrevious.php',
+        'Mockery\\Adapter\\Phpunit\\MockeryTestCaseSetUpForV8' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCaseSetUpForV8.php',
         'Mockery\\Adapter\\Phpunit\\TestListener' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php',
-        'Mockery\\Adapter\\Phpunit\\TestListenerTrait' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListenerTrait.php',
         'Mockery\\ClosureWrapper' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/ClosureWrapper.php',
         'Mockery\\CompositeExpectation' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/CompositeExpectation.php',
         'Mockery\\Configuration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Configuration.php',
@@ -2745,7 +2755,6 @@ class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
         'Mockery\\MethodCall' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/MethodCall.php',
         'Mockery\\Mock' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Mock.php',
         'Mockery\\MockInterface' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/MockInterface.php',
-        'Mockery\\QuickDefinitionsConfiguration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/QuickDefinitionsConfiguration.php',
         'Mockery\\ReceivedMethodCalls' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/ReceivedMethodCalls.php',
         'Mockery\\Reflector' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Reflector.php',
         'Mockery\\Undefined' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Undefined.php',
@@ -4817,7 +4826,6 @@ class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
         'Symfony\\Contracts\\Service\\Test\\ServiceLocatorTest' => __DIR__ . '/..' . '/symfony/service-contracts/Test/ServiceLocatorTest.php',
         'Symfony\\Contracts\\Translation\\LocaleAwareInterface' => __DIR__ . '/..' . '/symfony/translation-contracts/LocaleAwareInterface.php',
         'Symfony\\Contracts\\Translation\\Test\\TranslatorTest' => __DIR__ . '/..' . '/symfony/translation-contracts/Test/TranslatorTest.php',
-        'Symfony\\Contracts\\Translation\\TranslatableInterface' => __DIR__ . '/..' . '/symfony/translation-contracts/TranslatableInterface.php',
         'Symfony\\Contracts\\Translation\\TranslatorInterface' => __DIR__ . '/..' . '/symfony/translation-contracts/TranslatorInterface.php',
         'Symfony\\Contracts\\Translation\\TranslatorTrait' => __DIR__ . '/..' . '/symfony/translation-contracts/TranslatorTrait.php',
         'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
@@ -4962,10 +4970,10 @@ class ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit9893b9ab21a3a20a21d87f26cce8c063::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit05943a566d2a5b642d522f61b5c59c75::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit05943a566d2a5b642d522f61b5c59c75::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit05943a566d2a5b642d522f61b5c59c75::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit05943a566d2a5b642d522f61b5c59c75::$classMap;
 
         }, null, ClassLoader::class);
     }
