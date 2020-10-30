@@ -14,5 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('index', function () {
+    return view('index');
+});
+Route::get('inicio', function () {
+    return view('index');
+});
+
+//¿Auth o sesiones php?
+
+
+//Rutas de los controladores
+
+Route::resource('administradores','AdministradoresController');
+Route::resource('clientes','ClientesController');
+Route::resource('disenios','DiseniosController');
+Route::resource('pagos','PagosController');
+Route::resource('usuarios','UsuariosController');
